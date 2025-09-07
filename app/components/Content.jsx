@@ -14,21 +14,21 @@ const Content = () => {
         </h2>
 
         {/* Description */}
-        <p className="text-gray-300 text-lg leading-relaxed mb-10">
-          I love sharing my knowledge through{" "}
-          <span className="text-blue-400 font-semibold">technical blogs</span> and{" "}
-          <span className="text-red-400 font-semibold">videos</span>.  
-          Explore my work on Hashnode and YouTube.
-        </p>
+       <p className="text-gray-300 text-lg leading-relaxed mb-10"> 
+  I enjoy breaking down complex topics into simple, clear explanations through{" "}
+  <span className="text-blue-400 font-semibold">technical blogs</span> and{" "}
+  <span className="text-red-400 font-semibold">videos</span>.  
+  
+</p>
+
 
         {/* Links */}
         <div className="flex justify-center gap-6 flex-wrap">
           {/* Hashnode Button */}
           <a
-            href="https://your-hashnode-link.com"
+            href="https://errorhandling.hashnode.dev/error-handling-in-javascript"
             target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 border border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white px-5 py-2 rounded-full font-medium transition"
+            rel="noopener noreferrer"            className="flex items-center gap-2 border border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white px-5 py-2 rounded-full font-medium transition"
           >
           
             Hashnode
@@ -36,7 +36,7 @@ const Content = () => {
 
           {/* YouTube Button */}
           <a
-            href="https://youtube.com/your-channel"
+            href="https://www.youtube.com/watch?si=huufCr1FWjPieRxq&v=aqSvijFweBE&feature=youtu.be"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 border border-red-500 text-red-400 hover:bg-red-600 hover:text-white px-5 py-2 rounded-full font-medium transition"

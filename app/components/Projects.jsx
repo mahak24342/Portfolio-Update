@@ -1,29 +1,30 @@
 import React from "react";
 
 const Projects = () => {
-  const projects = [
-    {
-      title: "Portfolio Website",
-      description:
-        "A modern, responsive personal portfolio built with Next.js & Tailwind CSS.",
-      tech: ["Next.js", "Tailwind", "JavaScript"],
-      link: "#",
-    },
-    {
-      title: "E-Commerce App",
-      description:
-        "A full-stack e-commerce platform with shopping cart, payments, and an admin dashboard.",
-      tech: ["React", "Node.js", "MongoDB"],
-      link: "#",
-    },
-    {
-      title: "Chat Application",
-      description:
-        "A real-time chat app with authentication and instant messaging powered by Firebase.",
-      tech: ["React", "Firebase", "Tailwind"],
-      link: "#",
-    },
-  ];
+ const projects = [
+  {
+    title: "Habit Tracker",
+    description:
+      "A productivity app to track and manage daily habits with a clean UI and local storage support.",
+    tech: ["React", "Context API", "LocalStorage"],
+    link: "https://github.com/mahak24342/HabitTracker",
+  },
+  {
+    title: "Stream AI",
+    description:
+      "An AI-powered platform integrating modern UI with backend services for streaming and AI features.",
+    tech: ["React", "Node.js", "MongoDB","OpenAI"],
+    link: "https://github.com/mahak24342/StreamAi",
+  },
+  {
+    title: "QuizzY",
+    description:
+      "An interactive quiz application with dynamic questions, scoring system, and responsive design.",
+    tech: ["React", "Firebase", "Tailwind CSS","OpenAI"],
+    link: "https://github.com/mahak24342/QuizzY",
+  },
+];
+
 
   return (
     <section
@@ -34,10 +35,10 @@ const Projects = () => {
       <div className="max-w-4xl mx-auto text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-extrabold mb-4">Projects</h2>
         <p className="text-gray-400 text-lg">
-          A collection of work that reflects my passion for crafting{" "}
-          <span className="text-blue-400">elegant & functional</span> digital
-          experiences.
-        </p>
+  A showcase of projects that highlight my passion for building{" "}
+  <span className="text-blue-400">modern, functional, and user-friendly</span> experiences.
+</p>
+
       </div>
 
       {/* Projects Grid */}
