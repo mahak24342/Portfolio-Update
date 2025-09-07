@@ -12,7 +12,7 @@ const About = () => {
         {/* Image (Top on mobile, Left on desktop) */}
         <div className="w-56 h-56 sm:w-64 sm:h-64 md:w-80 md:h-80 relative rounded-3xl overflow-hidden shadow-lg flex-shrink-0">
           <Image
-            src="/1.jfif" // <-- replace with your image in /public
+            src="/2.jpeg" // <-- replace with your image in /public
             alt="Mahak"
             fill
             className="object-cover"
